@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT grieta_del_invocador (equipos, modo)>
+        <!ELEMENT equipos (equipo+)>
+        <!ELEMENT modo (#PCDATA)>
+
+        <!ELEMENT equipo (jugador+, oro_total, minions_totales, dragones)>
+        <!ATTLIST equipo equipo ID #REQUIRED
+        <!ELEMENT color (#PCDATA)>
+        <!ELEMENT oro_total (#PCDATA)>
+        <!ELEMENT minions_totales (#PCDATA)>
+        <!ELEMENT dragones (dragon*)>
+
+        <!ELEMENT dragon EMPTY>
+        <!ATTLIST dragon tipo (infernal | oceano | montaña | nube | anciano | hextech | chemtech) #IMPLIED>
+        <!ELEMENT jugador (nombre, personaje, minions, oro, objetos)>
+        <!ATTLIST jugador equipo IDREF #IMPLIED>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT personaje (nombre, imagen, habilidades, hechizos, mana?, energia?, AD, AP, DEF, ATTSPD, MOVSPD, OMNSC)>
+        <!ATTLIST personaje nivel CDATA #REQUIRED>
+        <!ATTLIST personaje clase (tanque | mago | asesino | luchador | tirador | soporte) #REQUIRED>
+        <!ELEMENT minions (#PCDATA)>
+        <!ELEMENT oro (#PCDATA)>
+        <!ELEMENT objetos (#PCDATA)>
+
+        <!ELEMENT imagen EMPTY>
+        <!ATTLIST imagen url CDATA #REQUIRED>
+        <!ELEMENT habilidades (habilidad+)>
+        <!ATTLIST habilidades recurso (mana | energia | vida | nada) #REQUIRED>
+        <!ELEMENT habilidad (coste, tipo?, descripcion)>
+        <!ATTLIST habilidad tecla (Q | W | E | R) #REQUIRED>
+        <!ELEMENT coste (#PCDATA)>
+        <!ELEMENT tipo (#PCDATA)>
+        <!ELEMENT descripcion (#PCDATA)>
+
+        <!ELEMENT mana (#PCDATA)>
+        <!ELEMENT energia (#PCDATA)>
+        <!ELEMENT hechizos (hechizo+)>
+        <!ELEMENT hechizo (#PCDATA)>
+        <!ELEMENT AD (#PCDATA)>
+        <!ELEMENT AP (#PCDATA)>
+        <!ELEMENT DEF (#PCDATA)>
+        <!ELEMENT ATTSPD (#PCDATA)>
+        <!ELEMENT MOVSPD (#PCDATA)>
+        <!ELEMENT OMNSC (#PCDATA)>
+
+

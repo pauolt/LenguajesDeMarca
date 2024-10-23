@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE grieta_del_invocador SYSTEM "Projecte-T1-P1-PAO.dtd">
+<grieta_del_invocador>
+    <equipos>
+        <equipo equipo="azul">
+            <jugador>
+                <nombre>Faker</nombre>
+                <personaje nivel="14" clase="mago">
+                    <nombre>Leblanc</nombre>
+                    <imagen url="https://leagueoflegends.fandom.com/es/wiki/LeBlanc"/>
+                    <habilidades recurso="mana">
+                        <habilidad tecla="Q">
+                            <coste>70</coste>
+                            <descripcion>proyecta un Sello que inflige 105(+40% Poder de Habilidad) de daño mágico y marca al objetivo durante 3.5 seg.</descripcion>
+                        </habilidad>
+                        <habilidad tecla="W">
+                            <coste>90</coste>
+                            <descripcion>LeBlanc se desplaza hacia una ubicación, lo que inflige 155(+60% Poder de Habilidad) de daño mágico a los enemigos cercanos en la zona.
+                            </descripcion>
+                        </habilidad>
+                        <habilidad tecla="E">
+                            <coste></coste>
+                            <descripcion>LeBlanc arroja una cadena que la vincula con el primer enemigo alcanzado, lo que inflige 80 (+30% Poder de Habilidad) de daño mágico y le otorga Visión Verdadera de él.</descripcion>
+                        </habilidad>
+                        <habilidad tecla="R">
+                            <coste>0</coste>
+                            <tipo>Ultimate</tipo>
+                            <descripcion> LeBlanc copia su hechizo más reciente y lo vuelve a lanzar.</descripcion>
+                        </habilidad>
+                    </habilidades>
+                    <hechizos>
+                        <hechizo>Destello</hechizo>
+                        <hechizo>Teleportar</hechizo>
+                    </hechizos>
+                    <AD>80</AD>
+                    <AP>370</AP>
+                    <DEF>70</DEF>
+                    <ATTSPD>0.73</ATTSPD>
+                    <MOVSPD>380</MOVSPD>
+                    <OMNSC>0</OMNSC>
+                </personaje>
+                <minions>160</minions>
+                <oro>2300</oro>
+                <objetos>5</objetos>
+            </jugador>
+            <jugador>
+                <nombre>Zeus</nombre>
+                <personaje nivel="15" clase="luchador">
+                    <nombre>Jayce</nombre>
+                    <imagen url="https://static.wikia.nocookie.net/leagueoflegends/images/8/89/Jayce_OriginalSkin.jpg/revision/latest/scale-to-width-down/1215?cb=20181021121203"/>
+                    <habilidades recurso="mana">
+                        <habilidad tecla="Q">
+                            <coste>40</coste>
+                            <descripcion>Salta hacia un enemigo, causando daño físico a los enemigos cercanos y ralentizándolos durante 2 segundos.</descripcion>
+                        </habilidad>
+                    </habilidades>
+                    <hechizos>
+                        <hechizo></hechizo>
+                    </hechizos>
+                    <AD></AD>
+                    <AP></AP>
+                    <DEF></DEF>
+                    <ATTSPD></ATTSPD>
+                    <MOVSPD></MOVSPD>
+                    <OMNSC></OMNSC>
+                </personaje>
+                <minions></minions>
+                <oro></oro>
+                <objetos></objetos>
+            </jugador>
+            <oro_total></oro_total>
+            <minions_totales></minions_totales>
+            <dragones></dragones>
+        </equipo>
+    </equipos>
+    <modo></modo>
+</grieta_del_invocador>
