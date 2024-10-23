@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!ELEMENT facturas (emisor, cliente, factura)>
+        <!ELEMENT emisor (nombre, CIF, telefono)>
+        <!ELEMENT cliente (nombre, CIF, telefono)>
+        <!ELEMENT factura (articulo+, importe)>
+        <!ATTLIST factura num ID #REQUIRED>
+        <!ATTLIST factura fecha CDATA #REQUIRED>
+        <!ATTLIST factura importe CDATA #REQUIRED>
+        <!ELEMENT articulo (descripcion, cantidad, oferta?, PVP)>
+        <!ATTLIST articulo codigo ID #REQUIRED>
+        <!ATTLIST articulo tipo (Libro | DVD | Varios)?>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT CIF (#PCDATA)>
+        <!ELEMENT telefono (#PCDATA)>
+        <!ELEMENT descripcion (#PCDATA)>
+        <!ELEMENT cantidad (#PCDATA)>
+        <!ELEMENT oferta (EMPTY?)>
+        <!ELEMENT PVP (#PCDATA)>
+        <!ELEMENT importe (#PCDATA)>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositori SYSTEM "software.dtd">
+<repositori>
+    <nom>Repositorio de Software Ejemplo</nom>
+    <categoria>Desarrollo</categoria>
+    <software_list>
+        <software id="001" tipus="free" puntuacio="4">
+            <nom>Editor de Texto</nom>
+            <etiquetes>editor, texto</etiquetes>
+            <developer>
+                <nom>Juan</nom>
+                <cognom>Pérez</cognom>
+                <web>https://juanperez.com</web>
+                <tipus>individual</tipus>
+                <imatge tipus="png" url="https://juanperez.com/imagen.png"/>
+            </developer>
+            <developer>
+                <nom>Ana</nom>
+                <cognom>García</cognom>
+                <web>https://anagarcia.com</web>
+                <tipus>empresa</tipus>
+                <imatge tipus="jpg" url="https://anagarcia.com/imagen.jpg"/>
+                <companyia>
+                    <nom>Empresa1</nom>
+                    <web>https://empresa1.com</web>
+                    <email>contacto@empresa1.com</email>
+                </companyia>
+            </developer>
+            <arxius>
+                <arxiu>
+                    <nom>editor_texto_instalador.exe</nom>
+                    <mida>15MB</mida>
+                    <url>https://ejemplo.com/editor_texto_instalador.exe</url>
+                    <checksum>123checksum</checksum>
+                    <upload>2023-10-16</upload>
+                </arxiu>
+                <arxiu>
+                    <nom>editor_texto_manual.pdf</nom>
+                    <mida>2MB</mida>
+                    <url>https://ejemplo.com/editor_texto_manual.pdf</url>
+                    <checksum>456checksum</checksum>
+                    <upload>2023-10-16</upload>
+                </arxiu>
+            </arxius>
+        </software>
+        <software id="002" tipus="comercial" puntuacio="5">
+            <nom>Gestor de Proyectos</nom>
+            <etiquetes>gestor, proyectos</etiquetes>
+            <developer>
+                <nom>Laura</nom>
+                <cognom>Martínez</cognom>
+                <web>https://lauramartinez.com</web>
+                <tipus>empresa</tipus>
+                <imatge tipus="gif" url="https://lauramartinez.com/imagen.gif"/>
+                <companyia>
+                    <nom>Empresa2</nom>
+                    <web>https://empresa2.com</web>
+                    <email>info@empresa2.com</email>
+                </companyia>
+            </developer>
+            <arxius>
+                <arxiu>
+                    <nom>gestor_proyectos_instalador.exe</nom>
+                    <mida>25MB</mida>
+                    <url>https://ejemplo2.com/gestor_proyectos_instalador.exe</url>
+                    <checksum>789checksum</checksum>
+                    <upload>2023-10-16</upload>
+                </arxiu>
+            </arxius>
+        </software>
+    </software_list>
+</repositori>

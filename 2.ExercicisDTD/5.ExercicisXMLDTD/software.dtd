@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!ELEMENT repositori (nom, categoria, software_list)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT categoria (#PCDATA)>
+        <!ELEMENT software_list (software+)>
+        <!ELEMENT software (nom, etiquetes?, developer+, arxius)>
+        <!ATTLIST software id ID #REQUIRED>
+        <!ELEMENT etiquetes (#PCDATA)>
+        <!ELEMENT developer (nom, cognom, web, tipus, imatge, companyia?)>
+        <!ELEMENT cognom (#PCDATA)>
+        <!ELEMENT web (#PCDATA)>
+        <!ELEMENT tipus (#PCDATA)>
+        <!ELEMENT imatge EMPTY>
+        <!ATTLIST imatge tipus (png | jpg | gif) #REQUIRED>
+        <!ATTLIST imatge url CDATA #REQUIRED>
+        <!ELEMENT companyia (nom, web, email)>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT arxius (arxiu+)>
+        <!ELEMENT arxiu (nom, mida, url, checksum, upload)>
+        <!ELEMENT mida (#PCDATA)>
+        <!ELEMENT url (#PCDATA)>
+        <!ELEMENT checksum (#PCDATA)>
+        <!ELEMENT upload (#PCDATA)>
+        <!ATTLIST software tipus (free | comercial) "free" #IMPLIED>
+        <!ATTLIST software puntuacio ( 0 | 1 | 2 | 3 | 4 | 5 ) "0" IMPLIED>

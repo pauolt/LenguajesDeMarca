@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE aeroport SYSTEM "aeroport.dtd">
+<aeroport>
+    <nom>JFK</nom>
+    <vols codi="V22" estat="R">
+        <diari/>
+        <origen>New York</origen>
+        <desti>Chicago</desti>
+        <eixida>9:30</eixida>
+        <arribada>11:30</arribada>
+    </vols>
+    <vols codi="V23" estat="C">
+        <origen>New York</origen>
+        <desti>Miami</desti>
+        <eixida>10:15</eixida>
+        <arribada>11:15</arribada>
+    </vols>
+</aeroport>

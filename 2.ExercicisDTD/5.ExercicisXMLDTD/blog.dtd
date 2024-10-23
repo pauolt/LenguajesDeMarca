@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT blog (categoria+)>
+<!ELEMENT categoria (nom, noticia+, event+)>
+<!ATTLIST categoria ID #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT noticia (titol, data_hora, autor, enllaç,text, comentari*, imatge*, etiqueta*)>
+<!ATTLIST noticia id ID #REQUIRED>
+<!ATTLIST noticia puntuacio (0 | 1 | 2 | 3) #IMPLIED>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT data_hora (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT enllaç EMPTY>
+<!ATTLIST enllaç URL CDATA #REQUIRED>
+<!ELEMENT comentari (autor?, data_hora, text)>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT imatge EMPTY>
+<!ATTLIST imatge URL CDATA #REQUIRED>
+<!ATTLIST imatge tipus (png | jpg | bmp) #REQUIRED>
+<!ELEMENT etiqueta (#PCDATA)>
+<!ELEMENT event (titol, ubicacio, data_hora_inici, data_hora_fin?, descripcio?, enllaç)>
+<!ATTLIST event ID #REQUIRED>
+<!ATTLIST event pagament (GRATUITA | PAGAMENT) #IMPLIED>
+<!ELEMENT ubicacio (#PCDATA)>
+<!ELEMENT data_hora_inici (#PCDATA)>
+<!ELEMENT data_hora_fin (#PCDATA)>
+<!ELEMENT descripcio (#PCDATA)>

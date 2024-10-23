@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE blog SYSTEM "blog.dtd">
+<blog>
+<categoria>
+    <nom>Tecnologia</nom>
+    <noticia id="101" puntuacio="2">
+        <titol>Nuevo lanzamiento de IA</titol>
+        <data_hora>21-10-24/14:00</data_hora>
+        <autor>Juanjo Martinez</autor>
+        <enllaç URL="https://elpais.com/nueva-ia"/>
+        <text>Esta noticia trata de un nuevo lanzamiento de IA</text>
+        <imatge URL="https://elpais.com/ia.jpg" tipus="jpg"/>
+        <etiqueta>ia, tecnologia</etiqueta>
+        <comentari>
+            <data_hora>21-10-24/14:43</data_hora>
+            <text>LLevaba tiempo esperando este lanzamiento.</text>
+        </comentari>
+        <comentari>
+            <autor>Paco Perez</autor>
+            <data_hora>21-10-24/15:23</data_hora>
+            <text>Una noticia muy interesante!</text>
+        </comentari>
+    </noticia>
+    <event ID="001" pagament="GRATUITA">
+        <titol>Feria de la tecnologia</titol>
+        <ubicacio>Valencia</ubicacio>
+        <data_hora_inici>26-09-24/09:00</data_hora_inici>
+        <data_hora_fin>26-09-24/18:00</data_hora_fin>
+        <descripcio>Una feria dedicada a la tecnologia y sus novedades</descripcio>
+        <enllaç URL="https://feriatecno.com/feria-valencia"/>
+    </event>
+</categoria>
+<categoria>
+    <nom>Gastronomia</nom>
+    <noticia id="102">
+        <titol>Nueva Apertura de la cadena de comida Don Pollo</titol>
+        <data_hora>14-10-24/17:30</data_hora>
+        <autor>Maria Garcia</autor>
+        <enllaç URL="https://cocinaconarte.com/apertura-don-pollo"/>
+        <text>Se abre nuevo restaurante Don Pollo en la localidad de Castellon</text>
+        <imatge URL="https://cocinaconarte.com/don-pollo.png" tipus="png"/>
+        <etiqueta>pollo, comida-rapida</etiqueta>
+        <comentari>
+            <autor>Kiko Rivera</autor>
+            <data_hora>14-10-24/19:25</data_hora>
+            <text>Porfin tengo un Don Pollo cerca de casa!</text>
+        </comentari>
+    </noticia>
+</categoria>
+</blog>

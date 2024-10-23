@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!ELEMENT aeroport (nom, vols+)>
+        <!ELEMENT nom (#PCDATA)>
+        <!ELEMENT vols (diari?, origen, desti, eixida, arribada)>
+        <!ATTLIST vols codi ID #REQUIRED>
+        <!ATTLIST vols estat (C | E | R ) "E">
+        <!ELEMENT diari (EMPTY?)>
+        <!ELEMENT origen (#PCDATA)>
+        <!ELEMENT desti (#PCDATA)>
+        <!ELEMENT eixida (#PCDATA)>
+        <!ELEMENT arribada (#PCDATA)>
