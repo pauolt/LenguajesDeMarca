@@ -3,75 +3,399 @@
 <grieta_del_invocador>
     <equipos>
         <equipo equipo="azul">
-            <jugador>
-                <nombre>Faker</nombre>
-                <personaje nivel="14" clase="mago">
-                    <nombre>Leblanc</nombre>
-                    <imagen url="https://leagueoflegends.fandom.com/es/wiki/LeBlanc"/>
-                    <habilidades recurso="mana">
-                        <habilidad tecla="Q">
-                            <coste>70</coste>
-                            <descripcion>proyecta un Sello que inflige 105(+40% Poder de Habilidad) de daño mágico y marca al objetivo durante 3.5 seg.</descripcion>
-                        </habilidad>
-                        <habilidad tecla="W">
-                            <coste>90</coste>
-                            <descripcion>LeBlanc se desplaza hacia una ubicación, lo que inflige 155(+60% Poder de Habilidad) de daño mágico a los enemigos cercanos en la zona.
-                            </descripcion>
-                        </habilidad>
-                        <habilidad tecla="E">
-                            <coste></coste>
-                            <descripcion>LeBlanc arroja una cadena que la vincula con el primer enemigo alcanzado, lo que inflige 80 (+30% Poder de Habilidad) de daño mágico y le otorga Visión Verdadera de él.</descripcion>
-                        </habilidad>
-                        <habilidad tecla="R">
-                            <coste>0</coste>
-                            <tipo>Ultimate</tipo>
-                            <descripcion> LeBlanc copia su hechizo más reciente y lo vuelve a lanzar.</descripcion>
-                        </habilidad>
-                    </habilidades>
-                    <hechizos>
-                        <hechizo>Destello</hechizo>
-                        <hechizo>Teleportar</hechizo>
-                    </hechizos>
-                    <AD>80</AD>
-                    <AP>370</AP>
-                    <DEF>70</DEF>
-                    <ATTSPD>0.73</ATTSPD>
-                    <MOVSPD>380</MOVSPD>
-                    <OMNSC>0</OMNSC>
-                </personaje>
-                <minions>160</minions>
-                <oro>2300</oro>
-                <objetos>5</objetos>
-            </jugador>
-            <jugador>
-                <nombre>Zeus</nombre>
-                <personaje nivel="15" clase="luchador">
-                    <nombre>Jayce</nombre>
-                    <imagen url="https://static.wikia.nocookie.net/leagueoflegends/images/8/89/Jayce_OriginalSkin.jpg/revision/latest/scale-to-width-down/1215?cb=20181021121203"/>
-                    <habilidades recurso="mana">
-                        <habilidad tecla="Q">
-                            <coste>40</coste>
-                            <descripcion>Salta hacia un enemigo, causando daño físico a los enemigos cercanos y ralentizándolos durante 2 segundos.</descripcion>
-                        </habilidad>
-                    </habilidades>
-                    <hechizos>
-                        <hechizo></hechizo>
-                    </hechizos>
-                    <AD></AD>
-                    <AP></AP>
-                    <DEF></DEF>
-                    <ATTSPD></ATTSPD>
-                    <MOVSPD></MOVSPD>
-                    <OMNSC></OMNSC>
-                </personaje>
-                <minions></minions>
-                <oro></oro>
-                <objetos></objetos>
-            </jugador>
-            <oro_total></oro_total>
-            <minions_totales></minions_totales>
-            <dragones></dragones>
+        <jugador>
+            <nombre>Faker</nombre>
+            <personaje nivel="14" clase="mago">
+                <nombre>Leblanc</nombre>
+                <imagen url="https://leagueoflegends.fandom.com/es/wiki/LeBlanc"/>
+                <habilidades recurso="mana">
+                    <habilidad tecla="Q">
+                        <coste>70</coste>
+                        <descripcion>Proyecta un sello que inflige 105(+40% Poder de Habilidad) de daño mágico y marca al objetivo durante 3.5 seg.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="W">
+                        <coste>90</coste>
+                        <descripcion>LeBlanc se desplaza hacia una ubicación, infligiendo 155(+60% Poder de Habilidad) de daño mágico a los enemigos cercanos.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="E">
+                        <coste>50</coste>
+                        <descripcion>Lanza una cadena que inflige 80(+30% Poder de Habilidad) de daño mágico y otorga visión del enemigo alcanzado.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="R">
+                        <coste>0</coste>
+                        <tipo>Ultimate</tipo>
+                        <descripcion>Copia y lanza su hechizo más reciente.</descripcion>
+                    </habilidad>
+                </habilidades>
+                <hechizos>
+                    <hechizo>Destello</hechizo>
+                    <hechizo>Teleportar</hechizo>
+                </hechizos>
+                <AD>80</AD>
+                <AP>370</AP>
+                <DEF>70</DEF>
+                <ATTSPD>0.73</ATTSPD>
+                <MOVSPD>380</MOVSPD>
+                <OMNSC>0</OMNSC>
+            </personaje>
+            <minions>160</minions>
+            <oro>2300</oro>
+            <objetos>5</objetos>
+        </jugador>
+        <jugador>
+            <nombre>Zeus</nombre>
+            <personaje nivel="15" clase="luchador">
+                <nombre>Jayce</nombre>
+                <imagen url="https://leagueoflegends.fandom.com/es/wiki/Jayce"/>
+                <habilidades recurso="mana">
+                    <habilidad tecla="Q">
+                        <coste>40</coste>
+                        <descripcion>Salta hacia un enemigo, causando daño físico a los enemigos cercanos y ralentizándolos durante 2 segundos.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="W">
+                        <coste>50</coste>
+                        <descripcion>Incrementa la velocidad de ataque durante unos segundos.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="E">
+                        <coste>55</coste>
+                        <descripcion>Empuja a un enemigo, infligiéndole daño.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="R">
+                        <coste>100</coste>
+                        <tipo>Ultimate</tipo>
+                        <descripcion>Transforma su martillo en cañón o viceversa, cambiando su conjunto de habilidades.</descripcion>
+                    </habilidad>
+                </habilidades>
+                <hechizos>
+                    <hechizo>Destello</hechizo>
+                    <hechizo>Ignición</hechizo>
+                </hechizos>
+                <AD>150</AD>
+                <AP>0</AP>
+                <DEF>90</DEF>
+                <ATTSPD>0.82</ATTSPD>
+                <MOVSPD>335</MOVSPD>
+                <OMNSC>0</OMNSC>
+            </personaje>
+            <minions>180</minions>
+            <oro>2000</oro>
+            <objetos>4</objetos>
+        </jugador>
+        <jugador>
+            <nombre>Oner</nombre>
+            <personaje nivel="13" clase="tanque">
+                <nombre>Sejuani</nombre>
+                <imagen url="https://leagueoflegends.fandom.com/es/wiki/Sejuani"/>
+                <habilidades recurso="mana">
+                    <habilidad tecla="Q">
+                        <coste>65</coste>
+                        <descripcion>Sejuani carga hacia adelante, infligiendo daño a los enemigos y empujándolos.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="W">
+                        <coste>80</coste>
+                        <descripcion>Lanza un ataque de barrido con su arma, infligiendo daño en área.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="E">
+                        <coste>30</coste>
+                        <descripcion>Congela y aturde al enemigo.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="R">
+                        <coste>100</coste>
+                        <tipo>Ultimate</tipo>
+                        <descripcion>Lanza una bola de hielo que aturde y daña a los enemigos.</descripcion>
+                    </habilidad>
+                </habilidades>
+                <hechizos>
+                    <hechizo>Destello</hechizo>
+                    <hechizo>Golpe de escudo</hechizo>
+                </hechizos>
+                <AD>60</AD>
+                <AP>0</AP>
+                <DEF>120</DEF>
+                <ATTSPD>0.7</ATTSPD>
+                <MOVSPD>340</MOVSPD>
+                <OMNSC>10</OMNSC>
+            </personaje>
+            <minions>130</minions>
+            <oro>2500</oro>
+            <objetos>3</objetos>
+        </jugador>
+        <jugador>
+            <nombre>Gumayusi</nombre>
+            <personaje nivel="13" clase="tirador">
+                <nombre>Aphelios</nombre>
+                <imagen url="https://leagueoflegends.fandom.com/es/wiki/Aphelios"/>
+                <habilidades recurso="mana">
+                    <habilidad tecla="Q">
+                        <coste>60</coste>
+                        <descripcion>Dispara proyectiles adicionales de sus armas.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="W">
+                        <coste>0</coste>
+                        <descripcion>Cambia de arma.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="E">
+                        <coste>0</coste>
+                        <descripcion>Cambia de posición para mejorar sus ataques.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="R">
+                        <coste>100</coste>
+                        <tipo>Ultimate</tipo>
+                        <descripcion>Realiza un ataque en área con su arma principal.</descripcion>
+                    </habilidad>
+                </habilidades>
+                <hechizos>
+                    <hechizo>Destello</hechizo>
+                    <hechizo>Curación</hechizo>
+                </hechizos>
+                <AD>190</AD>
+                <AP>0</AP>
+                <DEF>50</DEF>
+                <ATTSPD>0.95</ATTSPD>
+                <MOVSPD>330</MOVSPD>
+                <OMNSC>0</OMNSC>
+            </personaje>
+            <minions>200</minions>
+            <oro>3200</oro>
+            <objetos>6</objetos>
+        </jugador>
+        <jugador>
+        <nombre>Keria</nombre>
+        <personaje nivel="12" clase="soporte">
+            <nombre>Thresh</nombre>
+            <imagen url="https://leagueoflegends.fandom.com/es/wiki/Thresh"/>
+            <habilidades recurso="mana">
+                <habilidad tecla="Q">
+                    <coste>70</coste>
+                    <descripcion>Lanza una cadena que aturde y atrae a los enemigos.</descripcion>
+                </habilidad>
+                <habilidad tecla="W">
+                    <coste>50</coste>
+                    <descripcion>Crea un escudo para un aliado y lo acerca a Thresh.</descripcion>
+                </habilidad>
+                <habilidad tecla="E">
+                    <coste>50</coste>
+                    <descripcion>Barre con su cadena para dañar y desplazar a los enemigos.</descripcion>
+                </habilidad>
+                <habilidad tecla="R">
+                    <coste>100</coste>
+                    <tipo>Ultimate</tipo>
+                    <descripcion>Crea una barrera que ralentiza y daña a los enemigos que la atraviesan.</descripcion>
+                </habilidad>
+            </habilidades>
+            <hechizos>
+                <hechizo>Destello</hechizo>
+                <hechizo>Prender</hechizo>
+            </hechizos>
+            <AD>50</AD>
+            <AP>0</AP>
+            <DEF>100</DEF>
+            <ATTSPD>0.7</ATTSPD>
+            <MOVSPD>335</MOVSPD>
+            <OMNSC>0</OMNSC>
+        </personaje>
+            <minions>97</minions>
+            <oro>1700</oro>
+            <objetos>4</objetos>
+        </jugador>
+        </equipo>
+        <equipo equipo="rojo">
+        <jugador>
+            <nombre>Caps</nombre>
+            <personaje nivel="14" clase="mago">
+                <nombre>Ryze</nombre>
+                <imagen url="https://leagueoflegends.fandom.com/es/wiki/Ryze"/>
+                <habilidades recurso="mana">
+                    <habilidad tecla="Q">
+                        <coste>40</coste>
+                        <descripcion>Lanza una descarga de energía mágica hacia un enemigo, causando daño mágico.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="W">
+                        <coste>60</coste>
+                        <descripcion>Inmoviliza a un enemigo y causa daño.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="E">
+                        <coste>40</coste>
+                        <descripcion>Dispersa energía en el objetivo, aumentando el daño de otros ataques.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="R">
+                        <coste>100</coste>
+                        <tipo>Ultimate</tipo>
+                        <descripcion>Teletransporta a Ryze y a los aliados cercanos a una ubicación seleccionada.</descripcion>
+                    </habilidad>
+                </habilidades>
+                <hechizos>
+                    <hechizo>Destello</hechizo>
+                    <hechizo>Teleportar</hechizo>
+                </hechizos>
+                <AD>60</AD>
+                <AP>350</AP>
+                <DEF>80</DEF>
+                <ATTSPD>0.7</ATTSPD>
+                <MOVSPD>340</MOVSPD>
+                <OMNSC>0</OMNSC>
+            </personaje>
+            <minions>170</minions>
+            <oro>2400</oro>
+            <objetos>5</objetos>
+        </jugador>
+        <jugador>
+            <nombre>Yike</nombre>
+            <personaje nivel="13" clase="luchador">
+                <nombre>Viego</nombre>
+                <imagen url="https://leagueoflegends.fandom.com/es/wiki/Viego"/>
+                <habilidades recurso="mana">
+                    <habilidad tecla="Q">
+                        <coste>30</coste>
+                        <descripcion>Ataca en línea recta, robando vida al enemigo.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="W">
+                        <coste>40</coste>
+                        <descripcion>Desata un golpe cargado que aturde a los enemigos.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="E">
+                        <coste>35</coste>
+                        <descripcion>Cubre una zona con niebla que otorga camuflaje.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="R">
+                        <coste>100</coste>
+                        <tipo>Ultimate</tipo>
+                        <descripcion>Se lanza hacia un enemigo debilitado y toma su cuerpo temporalmente.</descripcion>
+                    </habilidad>
+                </habilidades>
+                <hechizos>
+                    <hechizo>Destello</hechizo>
+                    <hechizo>Golpe de escudo</hechizo>
+                </hechizos>
+                <AD>120</AD>
+                <AP>0</AP>
+                <DEF>90</DEF>
+                <ATTSPD>0.8</ATTSPD>
+                <MOVSPD>345</MOVSPD>
+                <OMNSC>15</OMNSC>
+            </personaje>
+            <minions>140</minions>
+            <oro>2100</oro>
+            <objetos>4</objetos>
+        </jugador>
+        <jugador>
+            <nombre>BrokenBlade</nombre>
+            <personaje nivel="15" clase="tanque">
+                <nombre>Ornn</nombre>
+                <imagen url="https://leagueoflegends.fandom.com/es/wiki/Ornn"/>
+                <habilidades recurso="mana">
+                    <habilidad tecla="Q">
+                        <coste>45</coste>
+                        <descripcion>Golpea el suelo, causando daño y ralentizando a los enemigos.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="W">
+                        <coste>35</coste>
+                        <descripcion>Escupe fuego en un área y gana un escudo temporal.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="E">
+                        <coste>55</coste>
+                        <descripcion>Se lanza hacia adelante, derribando a los enemigos que golpea.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="R">
+                        <coste>100</coste>
+                        <tipo>Ultimate</tipo>
+                        <descripcion>Invoca un ariete que atraviesa el campo y lanza por el aire a los enemigos en su camino.</descripcion>
+                    </habilidad>
+                </habilidades>
+                <hechizos>
+                    <hechizo>Destello</hechizo>
+                    <hechizo>Teleportar</hechizo>
+                </hechizos>
+                <AD>80</AD>
+                <AP>0</AP>
+                <DEF>150</DEF>
+                <ATTSPD>0.6</ATTSPD>
+                <MOVSPD>335</MOVSPD>
+                <OMNSC>20</OMNSC>
+            </personaje>
+            <minions>125</minions>
+            <oro>2200</oro>
+            <objetos>4</objetos>
+        </jugador>
+        <jugador>
+            <nombre>Hans Sama</nombre>
+            <personaje nivel="13" clase="tirador">
+                <nombre>Jinx</nombre>
+                <imagen url="https://leagueoflegends.fandom.com/es/wiki/Jinx"/>
+                <habilidades recurso="mana">
+                    <habilidad tecla="Q">
+                        <coste>20</coste>
+                        <descripcion>Cambia entre ataques de cañón y ametralladora, incrementando su velocidad de ataque.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="W">
+                        <coste>50</coste>
+                        <descripcion>Dispara un rayo de energía que ralentiza y daña al primer enemigo alcanzado.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="E">
+                        <coste>70</coste>
+                        <descripcion>Coloca trampas explosivas en el suelo que atrapan y dañan a los enemigos.</descripcion>
+                    </habilidad>
+                    <habilidad tecla="R">
+                        <coste>100</coste>
+                        <tipo>Ultimate</tipo>
+                        <descripcion>Dispara un cohete de largo alcance que explota en el primer enemigo alcanzado.</descripcion>
+                    </habilidad>
+                </habilidades>
+                <hechizos>
+                    <hechizo>Destello</hechizo>
+                    <hechizo>Curación</hechizo>
+                </hechizos>
+                <AD>200</AD>
+                <AP>0</AP>
+                <DEF>60</DEF>
+                <ATTSPD>0.9</ATTSPD>
+                <MOVSPD>325</MOVSPD>
+                <OMNSC>0</OMNSC>
+            </personaje>
+            <minions>190</minions>
+            <oro>3000</oro>
+            <objetos>6</objetos>
+        </jugador>
+        <jugador>
+        <nombre>Mikyx</nombre>
+        <personaje nivel="12" clase="soporte">
+            <nombre>Rakan</nombre>
+            <imagen url="https://leagueoflegends.fandom.com/es/wiki/Rakan"/>
+            <habilidades recurso="mana">
+                <habilidad tecla="Q">
+                    <coste>50</coste>
+                    <descripcion>Lanza una pluma mágica que daña a los enemigos y cura a los aliados cercanos.</descripcion>
+                </habilidad>
+                <habilidad tecla="W">
+                    <coste>60</coste>
+                    <descripcion>Salta hacia adelante y lanza a los enemigos al aire al aterrizar.</descripcion>
+                </habilidad>
+                <habilidad tecla="E">
+                    <coste>40</coste>
+                    <descripcion>Otorga un escudo a un aliado y puede lanzarse nuevamente hacia otro aliado.</descripcion>
+                </habilidad>
+                <habilidad tecla="R">
+                    <coste>100</coste>
+                    <tipo>Ultimate</tipo>
+                    <descripcion>Corre rápidamente y encanta a los enemigos con los que entra en contacto.</descripcion>
+                </habilidad>
+            </habilidades>
+            <hechizos>
+                <hechizo>Destello</hechizo>
+                <hechizo>Prender</hechizo>
+            </hechizos>
+            <AD>50</AD>
+            <AP>0</AP>
+            <DEF>85</DEF>
+            <ATTSPD>0.7</ATTSPD>
+            <MOVSPD>340</MOVSPD>
+            <OMNSC>0</OMNSC>
+        </personaje>
+            <minions>95</minions>
+            <oro>2600</oro>
+            <objetos>5</objetos>
+        </jugador>
         </equipo>
     </equipos>
-    <modo></modo>
+    <modo>clasificatoria</modo>
 </grieta_del_invocador>
