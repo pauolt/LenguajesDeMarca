@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+  <pedido>
+    <destinatario>Elton Tito</destinatario>
+    <articulo>bicicleta A2023</articulo>
+    <direccion_entrega>
+      <calle puerta="4">Sal si puedes</calle>
+      <piso letra="A">quarto</piso>
+    </direccion_entrega>
+    <fecha_entrega>
+    <dia>05</dia>
+    <mes>10</mes>
+    <año>2023</año>
+    </fecha_entrega>
+  </pedido>
+</pedidos>

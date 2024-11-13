@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensajes>
+  <mensaje>
+    <remitente email="alf@ibium.com">Alfredo Reino</remitente>
+    <destinatario email="president@whitehouse.gov">Bill clinton</destinatario>
+    <asunto>Holla bill</asunto>
+    <texto>
+      <parrafo>¿Hola qué tal?</parrafo>
+      <parrafo>Hace mucho tiempo que no escribes.</parrafo>
+      <parrafo>Un saludo.</parrafo>
+    </texto>
+  </mensaje>
+</mensajes>

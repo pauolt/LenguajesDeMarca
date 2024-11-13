@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comics>
+
+    <comic titulo="The Amazing Spider-Man #1">
+        <autor>Stan Lee y Steve Ditko</autor>
+        <año_publicacion>1963</año_publicacion>
+        <editorial>Marvel Comics</editorial>
+
+    </comic>
+
+    <comic titulo="Batman: Año Uno">
+        <autor>Frank Miller y David Mazzuchelli</autor>
+        <año_publicacion>1987</año_publicacion>
+        <editorial>Dc Comics</editorial>
+        <genero>Superheroe</genero>
+    </comic>
+
+    <comic titulo="X-men #1">
+        <autor>Stan Lee y Jack Kirby</autor>
+        <año_publicacion>1963</año_publicacion>
+        <editorial>Marvel Comics</editorial>
+        <num_paginas>32</num_paginas>
+    </comic>
+
+    <comic titulo="Wonder Woman Vol.1:Blood">
+        <autor>Brian Azzarello y Cliff Chiang</autor>
+        <año_publicacion>2012</año_publicacion>
+        <editorial>DC Comics</editorial>
+        <genero>Superheroi</genero>
+        <premios>Eisner Award 2013</premios>
+    </comic>
+
+</comics>
