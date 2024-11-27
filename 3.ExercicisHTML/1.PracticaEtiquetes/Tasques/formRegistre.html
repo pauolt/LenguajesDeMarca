@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulari</title>
+    <style>
+        text {
+            color: darkgreen;
+        }
+        label {
+            color: darkgreen;
+            display: block;
+            margin-bottom: 10px;
+        }
+        select {
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        textarea {
+            height: 100px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<h1>Formulari bàsic de registre</h1>
+<form method="post">
+    <text>Nom:</text>
+    <input type="text" name="usuari" placeholder="Posa el teu nom">
+</form>
+<form method="post">
+    <text>Cognom:</text>
+    <input type="text" name="Cognom" placeholder="Posa el teu cognom">
+</form>
+<form method="post">
+    <text>Contrasenya:</text>
+    <input type="text" name="Contrasenya" placeholder="Introdueix la contrasenya">
+</form>
+<text>Població:</text>
+<select name="poblacio" id="poblacio">
+    <option value="La Vall d'Uixó">La Vall d'Uixó</option>
+    <option value="Nules">Nules</option>
+    <option value="La Vila Vella">La Vila Vella</option>
+    <option value="Burriana">Burriana</option>
+    <option value="Sagunt">Sagunt</option>
+</select>
+<form method="post">
+    <text>Descripció:</text>
+    <textarea placeholder="Descripció"></textarea>
+</form>
+<form method="post">
+    <text>Sexe:</text>
+    <input type="radio" name="sexe" value="home"> Home
+    <input type="radio" name="sexe" value="dona"> Dona
+</form>
+<form method="post">
+    <text>Adreça electrònica</text>
+    <input type="text" name="adreçaelectrònica" placeholder="Adreça electrònica">
+</form>
+<form>
+    <text>Vull rebre informació sobre novetats i ofertes</text>
+    <input type="checkbox" name="preferencia" id="notifi" value="novetatsofertes">
+    <br>
+    <text>Declare haver llegit i acceptat les condicions generals del programa</text>
+    <input type="checkbox" name="preferencia" id="llegit" value="llegit">
+
+</form>
+<form>
+    <input type="submit" value="Enviar">
+</form>
+</body>
+</html>

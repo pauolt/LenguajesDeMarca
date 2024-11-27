@@ -1,0 +1,52 @@
+p {
+    color: blue;
+    font-size: 16px;
+    line-height: 1.5;
+
+
+}
+
+.segona {
+    background-color: lightskyblue;
+    border: 1px solid gray;
+    margin: 10px 0;
+    padding: 10px;
+
+
+}
+
+#cabezal {
+    background-color: lightgray;
+    color: darkblue;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.hache {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkgreen;
+
+
+
+}
+
+section p{
+    font-style: italic;
+    margin-left: 20px;
+}
+
+body {
+    background-color: #fafafa;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
